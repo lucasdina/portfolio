@@ -1,5 +1,7 @@
 body {
     background-image: url(../images/background_main.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .nav ul {
@@ -90,15 +92,12 @@ main p {
 }
 
 
-/*
-https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
-
-.my-super-special-nav-bar {
-    background-color: aqua;
+img {
+    display: block;
+    margin: auto;
+   max-height: 200px;
+    max-width: 100%;
 }
-nav div .logo-jukebox {
-    background: url(../images/logo.png);
-    max-height: 70px;
-    max-width: 70px;
-    background-size: contain;
-}*/
+.links{
+    padding: 30px;
+}
